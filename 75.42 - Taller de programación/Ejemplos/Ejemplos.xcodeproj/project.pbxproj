@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3811038E19DD13ED00467F36 /* memoria.c in Sources */ = {isa = PBXBuildFile; fileRef = 3811038519DD13ED00467F36 /* memoria.c */; };
+		3811038F19DD13ED00467F36 /* mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 3811038619DD13ED00467F36 /* mutex.c */; };
+		3811039019DD13ED00467F36 /* puntero_a_funciones.c in Sources */ = {isa = PBXBuildFile; fileRef = 3811038719DD13ED00467F36 /* puntero_a_funciones.c */; };
+		3811039119DD13ED00467F36 /* punteros_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3811038819DD13ED00467F36 /* punteros_1.c */; };
+		3811039219DD13ED00467F36 /* punteros_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3811038919DD13ED00467F36 /* punteros_2.c */; };
+		3811039319DD13ED00467F36 /* punteros_arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 3811038A19DD13ED00467F36 /* punteros_arrays.c */; };
+		3811039419DD13ED00467F36 /* punteros.c in Sources */ = {isa = PBXBuildFile; fileRef = 3811038B19DD13ED00467F36 /* punteros.c */; };
+		3811039519DD13ED00467F36 /* Threads1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3811038C19DD13ED00467F36 /* Threads1.c */; };
+		3811039619DD13ED00467F36 /* Threads2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3811038D19DD13ED00467F36 /* Threads2.c */; };
+		381103A619DE2F3500467F36 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 381103A519DE2F3500467F36 /* client.c */; };
+		381103A819DE336D00467F36 /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 381103A719DE336D00467F36 /* server.c */; };
+		384AA31119E352D700FDFB65 /* listener-beej.c in Sources */ = {isa = PBXBuildFile; fileRef = 384AA31019E352D700FDFB65 /* listener-beej.c */; };
+		384AA31319E352F000FDFB65 /* talker-beej.c in Sources */ = {isa = PBXBuildFile; fileRef = 384AA31219E352F000FDFB65 /* talker-beej.c */; };
+		384AA31519E363AB00FDFB65 /* server-select-beej.c in Sources */ = {isa = PBXBuildFile; fileRef = 384AA31419E363AB00FDFB65 /* server-select-beej.c */; };
+		3859B84619E33C9B003CA80E /* client-beej-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3859B84519E33C9B003CA80E /* client-beej-1.c */; };
+		3859B84819E33CB7003CA80E /* server-beej-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3859B84719E33CB7003CA80E /* server-beej-1.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3811036819DD13B200467F36 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3811036A19DD13B200467F36 /* Ejemplos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ejemplos; sourceTree = BUILT_PRODUCTS_DIR; };
+		3811037719DD13E200467F36 /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		3811037819DD13E200467F36 /* archivo-corto.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "archivo-corto.txt"; sourceTree = "<group>"; };
+		3811037919DD13E200467F36 /* contador_general.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = contador_general.c; sourceTree = "<group>"; };
+		3811037A19DD13E200467F36 /* contador_general.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = contador_general.h; sourceTree = "<group>"; };
+		3811037B19DD13E200467F36 /* contador_lineas.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = contador_lineas.c; sourceTree = "<group>"; };
+		3811037C19DD13E200467F36 /* contador_lineas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = contador_lineas.h; sourceTree = "<group>"; };
+		3811037D19DD13E200467F36 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3811037E19DD13E200467F36 /* mutex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mutex.c; sourceTree = "<group>"; };
+		3811037F19DD13E200467F36 /* mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mutex.h; sourceTree = "<group>"; };
+		3811038019DD13E200467F36 /* salida_sincronizada.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = salida_sincronizada.c; sourceTree = "<group>"; };
+		3811038119DD13E200467F36 /* salida_sincronizada.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = salida_sincronizada.h; sourceTree = "<group>"; };
+		3811038219DD13E200467F36 /* soy-un-archivo-con-nombre-largo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "soy-un-archivo-con-nombre-largo.txt"; sourceTree = "<group>"; };
+		3811038319DD13E200467F36 /* thread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
+		3811038419DD13E200467F36 /* thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		3811038519DD13ED00467F36 /* memoria.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memoria.c; sourceTree = SOURCE_ROOT; };
+		3811038619DD13ED00467F36 /* mutex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mutex.c; sourceTree = SOURCE_ROOT; };
+		3811038719DD13ED00467F36 /* puntero_a_funciones.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = puntero_a_funciones.c; sourceTree = SOURCE_ROOT; };
+		3811038819DD13ED00467F36 /* punteros_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = punteros_1.c; sourceTree = SOURCE_ROOT; };
+		3811038919DD13ED00467F36 /* punteros_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = punteros_2.c; sourceTree = SOURCE_ROOT; };
+		3811038A19DD13ED00467F36 /* punteros_arrays.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = punteros_arrays.c; sourceTree = SOURCE_ROOT; };
+		3811038B19DD13ED00467F36 /* punteros.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = punteros.c; sourceTree = SOURCE_ROOT; };
+		3811038C19DD13ED00467F36 /* Threads1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Threads1.c; sourceTree = SOURCE_ROOT; };
+		3811038D19DD13ED00467F36 /* Threads2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Threads2.c; sourceTree = SOURCE_ROOT; };
+		381103A519DE2F3500467F36 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = SOURCE_ROOT; };
+		381103A719DE336D00467F36 /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = SOURCE_ROOT; };
+		384AA31019E352D700FDFB65 /* listener-beej.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "listener-beej.c"; sourceTree = SOURCE_ROOT; };
+		384AA31219E352F000FDFB65 /* talker-beej.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "talker-beej.c"; sourceTree = SOURCE_ROOT; };
+		384AA31419E363AB00FDFB65 /* server-select-beej.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "server-select-beej.c"; sourceTree = SOURCE_ROOT; };
+		3859B84519E33C9B003CA80E /* client-beej-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "client-beej-1.c"; sourceTree = SOURCE_ROOT; };
+		3859B84719E33CB7003CA80E /* server-beej-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "server-beej-1.c"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3811036719DD13B200467F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3811036119DD13B100467F36 = {
+			isa = PBXGroup;
+			children = (
+				3811036C19DD13B200467F36 /* Ejemplos */,
+				3811036B19DD13B200467F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3811036B19DD13B200467F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3811036A19DD13B200467F36 /* Ejemplos */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3811036C19DD13B200467F36 /* Ejemplos */ = {
+			isa = PBXGroup;
+			children = (
+				3811039919DD142600467F36 /* TP2 */,
+				3811039819DD141400467F36 /* TP1 */,
+			);
+			path = Ejemplos;
+			sourceTree = "<group>";
+		};
+		3811037619DD13E200467F36 /* codigoThreads */ = {
+			isa = PBXGroup;
+			children = (
+				3811037719DD13E200467F36 /* a.out */,
+				3811037819DD13E200467F36 /* archivo-corto.txt */,
+				3811037919DD13E200467F36 /* contador_general.c */,
+				3811037A19DD13E200467F36 /* contador_general.h */,
+				3811037B19DD13E200467F36 /* contador_lineas.c */,
+				3811037C19DD13E200467F36 /* contador_lineas.h */,
+				3811037D19DD13E200467F36 /* main.c */,
+				3811037E19DD13E200467F36 /* mutex.c */,
+				3811037F19DD13E200467F36 /* mutex.h */,
+				3811038019DD13E200467F36 /* salida_sincronizada.c */,
+				3811038119DD13E200467F36 /* salida_sincronizada.h */,
+				3811038219DD13E200467F36 /* soy-un-archivo-con-nombre-largo.txt */,
+				3811038319DD13E200467F36 /* thread.c */,
+				3811038419DD13E200467F36 /* thread.h */,
+			);
+			path = codigoThreads;
+			sourceTree = SOURCE_ROOT;
+		};
+		3811039819DD141400467F36 /* TP1 */ = {
+			isa = PBXGroup;
+			children = (
+				3811038719DD13ED00467F36 /* puntero_a_funciones.c */,
+				3811038519DD13ED00467F36 /* memoria.c */,
+				3811038819DD13ED00467F36 /* punteros_1.c */,
+				3811038919DD13ED00467F36 /* punteros_2.c */,
+				3811038A19DD13ED00467F36 /* punteros_arrays.c */,
+				3811038B19DD13ED00467F36 /* punteros.c */,
+			);
+			name = TP1;
+			sourceTree = "<group>";
+		};
+		3811039919DD142600467F36 /* TP2 */ = {
+			isa = PBXGroup;
+			children = (
+				3859B84419E33C65003CA80E /* Beej */,
+				3811039A19DD143700467F36 /* codigoSockets */,
+				3811038619DD13ED00467F36 /* mutex.c */,
+				3811038C19DD13ED00467F36 /* Threads1.c */,
+				3811038D19DD13ED00467F36 /* Threads2.c */,
+				3811037619DD13E200467F36 /* codigoThreads */,
+			);
+			name = TP2;
+			sourceTree = "<group>";
+		};
+		3811039A19DD143700467F36 /* codigoSockets */ = {
+			isa = PBXGroup;
+			children = (
+				381103A519DE2F3500467F36 /* client.c */,
+				381103A719DE336D00467F36 /* server.c */,
+			);
+			name = codigoSockets;
+			sourceTree = "<group>";
+		};
+		3859B84419E33C65003CA80E /* Beej */ = {
+			isa = PBXGroup;
+			children = (
+				3859B84519E33C9B003CA80E /* client-beej-1.c */,
+				3859B84719E33CB7003CA80E /* server-beej-1.c */,
+				384AA31019E352D700FDFB65 /* listener-beej.c */,
+				384AA31219E352F000FDFB65 /* talker-beej.c */,
+				384AA31419E363AB00FDFB65 /* server-select-beej.c */,
+			);
+			name = Beej;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3811036919DD13B200467F36 /* Ejemplos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3811037319DD13B200467F36 /* Build configuration list for PBXNativeTarget "Ejemplos" */;
+			buildPhases = (
+				3811036619DD13B200467F36 /* Sources */,
+				3811036719DD13B200467F36 /* Frameworks */,
+				3811036819DD13B200467F36 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ejemplos;
+			productName = Ejemplos;
+			productReference = 3811036A19DD13B200467F36 /* Ejemplos */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3811036219DD13B100467F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 3811036519DD13B100467F36 /* Build configuration list for PBXProject "Ejemplos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3811036119DD13B100467F36;
+			productRefGroup = 3811036B19DD13B200467F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3811036919DD13B200467F36 /* Ejemplos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3811036619DD13B200467F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381103A819DE336D00467F36 /* server.c in Sources */,
+				3811039419DD13ED00467F36 /* punteros.c in Sources */,
+				3811038E19DD13ED00467F36 /* memoria.c in Sources */,
+				384AA31119E352D700FDFB65 /* listener-beej.c in Sources */,
+				3859B84819E33CB7003CA80E /* server-beej-1.c in Sources */,
+				3811039119DD13ED00467F36 /* punteros_1.c in Sources */,
+				3811038F19DD13ED00467F36 /* mutex.c in Sources */,
+				3811039319DD13ED00467F36 /* punteros_arrays.c in Sources */,
+				384AA31319E352F000FDFB65 /* talker-beej.c in Sources */,
+				3811039219DD13ED00467F36 /* punteros_2.c in Sources */,
+				3811039019DD13ED00467F36 /* puntero_a_funciones.c in Sources */,
+				3859B84619E33C9B003CA80E /* client-beej-1.c in Sources */,
+				384AA31519E363AB00FDFB65 /* server-select-beej.c in Sources */,
+				3811039619DD13ED00467F36 /* Threads2.c in Sources */,
+				381103A619DE2F3500467F36 /* client.c in Sources */,
+				3811039519DD13ED00467F36 /* Threads1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3811037119DD13B200467F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3811037219DD13B200467F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3811037419DD13B200467F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3811037519DD13B200467F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3811036519DD13B100467F36 /* Build configuration list for PBXProject "Ejemplos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3811037119DD13B200467F36 /* Debug */,
+				3811037219DD13B200467F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3811037319DD13B200467F36 /* Build configuration list for PBXNativeTarget "Ejemplos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3811037419DD13B200467F36 /* Debug */,
+				3811037519DD13B200467F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3811036219DD13B100467F36 /* Project object */;
+}
